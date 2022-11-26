@@ -2,13 +2,14 @@ import React from "react";
 import "./App.css";
 import image from "./images/01d.png";
 
-export default function () {
+export default function Temperature() {
   return (
     <div className="Temperature">
       <img src={image} alt="sun" />
       <div className="temp">19</div>
       <span className="units">
-        <a href="#">°C</a> |<a href="#">°F</a>
+        <a href="https://www.shecodes.io/">°C</a> |
+        <a href="https://www.shecodes.io/">°F</a>
       </span>
     </div>
   );

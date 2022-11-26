@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 
-export default function () {
+export default function Search() {
   return (
     <div className="Search">
       <div className="container">
