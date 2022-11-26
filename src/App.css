@@ -1,38 +1,36 @@
 .App {
-  text-align: center;
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 4px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App .city {
+  padding: 10px 10px 4px 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App .prospects ul {
+  margin: 0px;
+  padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Temperature img {
+  width: 40px;
+  position: relative;
+  top: -20px;
 }
 
-.App-link {
-  color: #61dafb;
+.Temperature .temp {
+  font-size: 70px;
+  display: inline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Temperature .units {
+  top: -40px;
+  position: relative;
+}
+
+.Temperature .units a {
+  text-decoration: none;
 }
