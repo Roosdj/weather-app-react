@@ -1,6 +1,13 @@
 .App {
   font-family: sans-serif;
   margin: 20px;
+  max-width: 600px;
+}
+
+.App h1 {
+  font-size: 24px;
+  margin: 0;
+  padding: 10px, 10px, 0px, 12px;
 }
 
 .border {
@@ -9,8 +16,14 @@
   padding: 20px;
 }
 
+.App ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px 0px 0px 10px;
+}
+
 .App .city {
-  padding: 10px 10px 4px 10px;
+  padding: 10px 10px 0px 10px;
 }
 
 .App .prospects ul {
